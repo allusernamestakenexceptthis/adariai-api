@@ -285,7 +285,7 @@ class Wrapper
 
         $headers = $this->getLastResponseHeaders();
 
-        if (empty($response['error'])) {
+        if (!empty($response['error'])) {
             $error = $response['error'];
         } else {
             $error = 'Invalid response from API';

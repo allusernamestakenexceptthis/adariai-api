@@ -26,7 +26,7 @@
 * along with this program.  If not, see <https://opensource.org/licenses/MIT>.
 */
 
-$model = "gpt-3.5-turbo";
+$model = "gpt-4-32k";
 $promptText = "what's the capital of burkino faso?";
 
 $messagesInput = [

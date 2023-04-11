@@ -1,0 +1,30 @@
+{
+    "name": "adari/adariai-api",
+    "description": "A simple PHP wrapper for the OpenAI API",
+    "keywords": [
+        "openai",
+        "api",
+        "wrapper",
+        "guzzle"
+    ],
+    "homepage": "https://gomilkyway.com",
+    "version": "0.1.0",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ari adari",
+            "email": "admin@ariadari.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+             "AdariaiApi": "src/"
+         }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0",
+        "guzzlehttp/guzzle": "7.0"
+    }
+}

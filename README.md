@@ -1,6 +1,6 @@
 # Adariai APi
 
-(Prereleas) Adariai APi is simple unofficial PHP wrapper for openai API.
+(Early version) Adariai APi is simple unofficial PHP wrapper for openai API.
 
 ## Installation
 
@@ -32,7 +32,7 @@ print_r($response);
 
 ## Version
 
-Prerelease 0.1.0
+Early version 1.0.0
 
 ## Contributing
 
